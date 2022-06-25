@@ -142,6 +142,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cbff3f25f1f2049499849348ed997dea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _turnSpeed: 20
+  _force: 100
 --- !u!65 &5546139793049874765
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -169,8 +171,8 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 56
-  m_CollisionDetection: 1
+  m_Constraints: 120
+  m_CollisionDetection: 0
 --- !u!1 &5546139791789261398
 GameObject:
   m_ObjectHideFlags: 0
@@ -3118,7 +3120,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 4326
+  m_VersionIndex: 4332
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
