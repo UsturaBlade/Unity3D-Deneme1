@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace BerkTerek3DProje1.Inputs
 {
-    public class DefaultInput : MonoBehaviour
+    public class DefaultInput
     {
         private DefaultAction _input;
 
@@ -15,6 +15,13 @@ namespace BerkTerek3DProje1.Inputs
             _input = new DefaultAction();
 
             _input.Rocket.ForceUp.performed += context => IsForceUp = context.ReadValueAsButton();
+
+            _input.Enable();
+         
         }
+
+        
+
+        
     }
 }
