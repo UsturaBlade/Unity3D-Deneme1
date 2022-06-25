@@ -18,8 +18,7 @@ namespace BerkTerek3DProje1.Movements
 
         public void FixedTick()
         {
-            Debug.Log("movers fixed tick");
-            _rigidbody.AddRelativeForce(Vector3.up * Time.deltaTime * _playerController.Force);
+            _rigidbody.AddRelativeForce(Vector3.up * Time.fixedDeltaTime * _playerController.Force);
         }
     }
 }
