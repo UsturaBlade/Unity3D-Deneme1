@@ -142,7 +142,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cbff3f25f1f2049499849348ed997dea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _force: 100
 --- !u!65 &5546139793049874765
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -155,7 +154,7 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.51523733, y: 0.89322144, z: 0.41732785}
-  m_Center: {x: -0.13174653, y: 0.44570675, z: 0.15101363}
+  m_Center: {x: -0.13174653, y: -0.06, z: 0.15101363}
 --- !u!54 &5546139793049874766
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -200,7 +199,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5546139791789261398}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -0.5, z: 0}
   m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3119,7 +3118,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 4320
+  m_VersionIndex: 4326
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
