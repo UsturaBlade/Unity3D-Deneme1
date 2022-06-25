@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using BerkTerek3DProje1.Inputs;
+using BerkTerek3DProje1.Movements;
 
 namespace BerkTerek3DProje1.Controllers
 {
@@ -9,18 +10,18 @@ namespace BerkTerek3DProje1.Controllers
     
     public class PlayerController : MonoBehaviour
     {
-        Rigidbody _rigitBody;
         DefaultInput _input;
+        Mover _mover;
 
         bool _isForceUp;
-        [SerializeField] float _force;
+        
         
          
         
         private void Awake()
         {
-            _rigitBody = GetComponent<Rigidbody>();
             _input = new DefaultInput();
+            _mover = new Mover(rigidbody:GetComponent<Rigidbody>());
         }
 
         private void Update()
@@ -40,7 +41,7 @@ namespace BerkTerek3DProje1.Controllers
         {
             if (_isForceUp)
             {
-                _rigitBody.AddForce(Vector3.up * Time.fixedDeltaTime * _force);
+                _mover.FixedTick();
             }
         }
 
