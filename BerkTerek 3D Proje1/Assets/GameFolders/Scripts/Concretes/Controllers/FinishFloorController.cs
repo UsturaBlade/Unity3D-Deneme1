@@ -19,6 +19,7 @@ namespace BerkTerek3DProje1.Controllers
             if(other.GetContact(0).normal.y == -1)
             {
                 _finishFireWork.gameObject.SetActive(true);
+                GameManager.Instance.MissionSucced();
             }
             else
             {

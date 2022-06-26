@@ -46,6 +46,7 @@ namespace BerkTerek3DProje1.Controllers
         private void OnEnable()
         {
             GameManager.Instance.OnGameOver += HandleOnEventTriggered;
+            GameManager.Instance.OnMissionSucced += HandleOnEventTriggered;
         }
 
         
@@ -53,6 +54,7 @@ namespace BerkTerek3DProje1.Controllers
         private void OnDisable()
         {
             GameManager.Instance.OnGameOver -= HandleOnEventTriggered;
+            GameManager.Instance.OnMissionSucced -= HandleOnEventTriggered;
         }
 
 
