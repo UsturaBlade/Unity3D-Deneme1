@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using BerkTerek3DProje1.Managers;
 
 namespace BerkTerek3DProje1.Controllers
 {
@@ -22,7 +23,7 @@ namespace BerkTerek3DProje1.Controllers
             else
             {
                 //GAMEOVER
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+                GameManager.Instance.GameOver();
             }
         }
 

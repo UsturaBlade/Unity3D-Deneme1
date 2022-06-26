@@ -1,3 +1,4 @@
+using BerkTerek3DProje1.Managers;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -13,7 +14,7 @@ namespace BerkTerek3DProje1.Controllers
 
             if(player != null)
             {
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+                GameManager.Instance.GameOver();
             }
 
         }

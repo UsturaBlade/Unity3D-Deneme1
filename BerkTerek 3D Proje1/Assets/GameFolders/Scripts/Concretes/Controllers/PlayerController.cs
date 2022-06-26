@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using BerkTerek3DProje1.Inputs;
 using BerkTerek3DProje1.Movements;
+using BerkTerek3DProje1.Managers;
 
 namespace BerkTerek3DProje1.Controllers
 {
@@ -18,6 +19,7 @@ namespace BerkTerek3DProje1.Controllers
         Rotator _rotator;
         Fuel _fuel;
 
+        bool _canMove;
         bool _canForceUp;
         float _leftRight;
         
@@ -36,8 +38,27 @@ namespace BerkTerek3DProje1.Controllers
             _fuel = GetComponent<Fuel>();
         }
 
+        private void Start()
+        {
+            _canMove = true;
+        }
+
+        private void OnEnable()
+        {
+            GameManager.Instance.OnGameOver += HandleOnEventTriggered;
+        }
+
+        
+
+        private void OnDisable()
+        {
+            GameManager.Instance.OnGameOver -= HandleOnEventTriggered;
+        }
+
+
         private void Update()
         {
+            if (!_canMove) return;
             if (_input.IsForceUp && !_fuel.IsEmpty)
             {
                 _canForceUp = true;
@@ -61,6 +82,14 @@ namespace BerkTerek3DProje1.Controllers
             }
 
             _rotator.FixedTick(_leftRight);
+        }
+
+        private void HandleOnEventTriggered()
+        {
+            _canMove = false;
+            _canForceUp = false;
+            _leftRight = 0f;
+            _fuel.FuelIncrease(0f);
         }
 
     }
