@@ -9,7 +9,7 @@ namespace BerkTerek3DProje1.UIs
     {
         public void YesClicked()
         {
-            GameManager.Instance.LoadLevelScene();
+            GameManager.Instance.LoadLevelScene(0);
 
         }
 
