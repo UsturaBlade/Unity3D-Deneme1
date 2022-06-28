@@ -27,6 +27,8 @@ namespace BerkTerek3DProje1.Controllers
         public float TurnSpeed => _turnSpeed;
         public float Force => _force;
 
+        public bool CanMove => _canMove;
+
 
 
 
