@@ -1,3 +1,4 @@
+using BerkTerek3DProje1.Managers;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -29,6 +30,8 @@ namespace BerkTerek3DProje1.Movements
             {
                 _particle.Stop();
             }
+
+            SoundManager.Instance.StopSound(0);
         }
 
         public void FuelDecrease(float decrease)
@@ -40,6 +43,8 @@ namespace BerkTerek3DProje1.Movements
             {
                 _particle.Play();
             }
+
+            SoundManager.Instance.PlaySound(0);
         }
     }
 }
