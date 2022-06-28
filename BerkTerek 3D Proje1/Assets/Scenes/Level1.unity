@@ -257,7 +257,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-26064
+  m_Name: pb_Mesh-1542
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -713,6 +713,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2794350614083798108, guid: 1cbd570852e839240b780859d1e34ceb, type: 3}
+      propertyPath: _winConditionPanel
+      value: 
+      objectReference: {fileID: 1697856516}
     - target: {fileID: 6769269013554086991, guid: 1cbd570852e839240b780859d1e34ceb, type: 3}
       propertyPath: m_Name
       value: GameCanvas
@@ -803,6 +807,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1cbd570852e839240b780859d1e34ceb, type: 3}
+--- !u!1 &1697856516 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1697856516, guid: 1cbd570852e839240b780859d1e34ceb, type: 3}
+  m_PrefabInstance: {fileID: 1595545572}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3718283996407766237
 PrefabInstance:
   m_ObjectHideFlags: 0
