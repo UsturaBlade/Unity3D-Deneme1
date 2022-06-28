@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Game
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -120,7 +120,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 16
+  controlID: 57
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -145,7 +145,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 97
+  controlID: 23
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -218,8 +218,8 @@ MonoBehaviour:
     y: 0
     width: 1032
     height: 947
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -245,8 +245,8 @@ MonoBehaviour:
     y: 0
     width: 494
     height: 947
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -294,13 +294,13 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/GameFolders/Scripts/Concretes/UIs
+    - Assets/GameFolders/Prefabs/GameAreas
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/GameFolders/Scripts/Concretes/UIs
+  - Assets/GameFolders/Prefabs/GameAreas
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Program Files\Unity Hub\Projeler\Unity3D Deneme1 Github\Unity3D-Deneme1\BerkTerek
     3D Proje1
@@ -308,9 +308,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 46650000
-    m_LastClickedID: 25926
-    m_ExpandedIDs: 00000000a0640000a2640000a4640000a66400004265000000ca9a3b
+    m_SelectedIDs: 827a0000
+    m_LastClickedID: 31362
+    m_ExpandedIDs: 000000006465000066650000686500006a650000846500008c6500008e65000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -338,7 +338,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000a0640000a2640000a4640000a6640000
+    m_ExpandedIDs: 000000006465000066650000686500006a650000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -382,7 +382,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 9}
+      m_ClientGUIView: {fileID: 8}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -425,9 +425,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: e2650000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 48f8ffffcaf8ffffe0faffffeafaffff12fbffff
+      m_ExpandedIDs: 52bdffff8cbdffffa4faffffe0faffffe8faffff10fbffff306200003a6200003e620000466200005862000062620000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -704,9 +704,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 515, y: 289.5, z: 0}
+    m_Target: {x: -5.230485, y: -3.365532, z: 6.9432755}
     speed: 2
-    m_Value: {x: 515, y: 289.5, z: 0}
+    m_Value: {x: -5.230485, y: -3.365532, z: 6.9432755}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -753,13 +753,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.0782288, y: 0.009570707, z: -0.0007011391, w: -0.9969259}
+    m_Target: {x: -0.1972228, y: -0.25628936, z: 0.05356279, w: -0.9447887}
     speed: 2
-    m_Value: {x: -0.07822595, y: 0.009570357, z: -0.00070111355, w: -0.99688953}
+    m_Value: {x: -0.19721535, y: -0.25627968, z: 0.053560767, w: -0.944753}
   m_Size:
-    m_Target: 419.70917
+    m_Target: 24.090052
     speed: 2
-    m_Value: 419.70917
+    m_Value: 24.090052
   m_Ortho:
     m_Target: 0
     speed: 2
