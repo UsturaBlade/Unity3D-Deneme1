@@ -1,12 +1,10 @@
+using BerkTerek3DProje1.Controllers;
 using BerkTerek3DProje1.Managers;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
-namespace BerkTerek3DProje1.Controllers
+namespace BerkTerek3DProje1.Abstracts.Controllers
 {
-    public class WallController : MonoBehaviour
+    public abstract class WallController : MonoBehaviour
     {
         private void OnCollisionEnter(Collision other)
         {
