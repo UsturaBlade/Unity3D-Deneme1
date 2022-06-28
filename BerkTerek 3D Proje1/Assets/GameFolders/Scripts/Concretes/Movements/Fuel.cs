@@ -13,6 +13,8 @@ namespace BerkTerek3DProje1.Movements
 
         public bool IsEmpty => _currentFuel < 1f;
 
+        public float CurrentFuel => _currentFuel / _maxFuel;  // bu property Slider için current fuelimizin 0 ile 1 arasýndaki deðerini gönderir ( mesela 90 fuelimiz kaldý diyeli 90 / 100 = 0.9)
+
         private void Awake()
         {
             _currentFuel = _maxFuel;

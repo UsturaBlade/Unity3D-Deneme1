@@ -324,7 +324,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-2404
+  m_Name: pb_Mesh-13386
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -888,6 +888,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1697856519, guid: 1cbd570852e839240b780859d1e34ceb, type: 3}
       propertyPath: m_Color.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1499484235600117320, guid: 1cbd570852e839240b780859d1e34ceb, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1499484235600117320, guid: 1cbd570852e839240b780859d1e34ceb, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1499484235600117320, guid: 1cbd570852e839240b780859d1e34ceb, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4091559010955694543, guid: 1cbd570852e839240b780859d1e34ceb, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4091559010955694543, guid: 1cbd570852e839240b780859d1e34ceb, type: 3}
+      propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6769269013554086991, guid: 1cbd570852e839240b780859d1e34ceb, type: 3}
