@@ -8,11 +8,11 @@ namespace BerkTerek3DProje1.Controllers
     public class MoverWallController : WallController
     {
         [SerializeField] Vector3 _direction;  // duvarýn gideceði yer
-        [SerializeField] float _factor;
         [SerializeField] float _speed = 1f;
 
         Vector3 _startPosition;
-        private const float FULL_CIRCLE = Mathf.PI * 2f;
+        float _factor;
+        const float FULL_CIRCLE = Mathf.PI * 2f;
 
         private void Awake()
         {
@@ -24,7 +24,8 @@ namespace BerkTerek3DProje1.Controllers
             float cycle = Time.time / _speed;
             float sinWave = Mathf.Sin(cycle * FULL_CIRCLE);
 
-            _factor = Mathf.Abs(sinWave);
+            //_factor = Mathf.Abs(sinWave);
+            _factor = sinWave / 2f + 0.5f;
             
             Vector3 offset = _direction * _factor;
             transform.position = offset + _startPosition;
